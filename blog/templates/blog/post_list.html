@@ -1,0 +1,27 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>W13 Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+
+    <h1><a href="">W13 Blog</a></h1>
+
+    {% for post in posts %}
+
+    <p>Published: {{ post.published_date }}</p>       
+    <h1><a href="">{{ post.title }}</a></h1>
+    <p>{{ post.text|linebreaksbr }}</p>
+    <br>
+
+     
+
+        
+    {% endfor %}
+  
+</body>
+</html>
