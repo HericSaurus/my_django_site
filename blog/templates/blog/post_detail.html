@@ -10,7 +10,11 @@
                 <br>
                 {{ post.published_date }}
             </div>
-        {% endif %}
+
+            {% else %}
+                <a href="{% url 'post_publish' pk=post.pk %}" class="btn btn-primary">Publish</a>
+            
+            {% endif %}
 
         <h1> {{ post.title }}</h1>
         <p>{{ post.text|linebreaksbr }}</p>
