@@ -30,3 +30,12 @@ h1,h2,h3,h4 {
 .post h1 a, .post h1{
     color: blueviolet
 }
+
+.post-form-blog textarea {
+    width: 100%; 
+    background-color: aquamarine;   
+}
+
+.post-form-blog .btn-success {
+    float:right;
+}
