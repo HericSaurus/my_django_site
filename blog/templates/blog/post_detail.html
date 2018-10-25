@@ -4,6 +4,9 @@
     <div class="post">
         {% if post.published_date %}
             <div class="date">
+               
+                <a href="{% url 'post_edit' pk=post.pk %}"><i class="fas fa-pencil-alt fa-5x" ></i></a>
+                <br>
                 {{ post.published_date }}
             </div>
         {% endif %}
