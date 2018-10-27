@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path,include
 from . import views
 from django.contrib.auth import views as auth_views
 
@@ -12,5 +12,6 @@ urlpatterns = [
     path('drafts',views.post_draft_list,name='post_draft_list'),
     path('post/<int:pk>/publish/', views.post_publish, name='post_publish'),
     #path('accounts/login',auth_views.login, name='login'),
+    path('accounts/',include('django.contrib.auth.urls')),
 
 ]
