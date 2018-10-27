@@ -1,0 +1,17 @@
+[33mcommit a64a9d2bfc844f658194c6a612b06d520d0d7c34[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/step_2_post_admin[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mstep_2_post_admin[m[33m)[m
+Author: HericSaurus <bch_heric@hotmail.com>
+Date:   Mon Oct 22 22:38:14 2018 +0800
+
+    Add ability to make posts from the administrator interface.
+
+[33mcommit 69bb97355c50e71434518713266ff1d8fe642d00[m[33m ([m[1;31morigin/step_1_meal_prep[m[33m, [m[1;32mstep_1_meal_prep[m[33m)[m
+Author: HericSaurus <bch_heric@hotmail.com>
+Date:   Sun Oct 21 22:47:51 2018 +0800
+
+    ignore pyc fule
+
+[33mcommit 97f92934cbca3029b8e55fc3f7f0b08d175a0a04[m
+Author: HericSaurus <bch_heric@hotmail.com>
+Date:   Sun Oct 21 22:26:32 2018 +0800
+
+    Initial commit. Setting up the project for success.
