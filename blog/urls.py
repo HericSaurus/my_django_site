@@ -14,6 +14,6 @@ urlpatterns = [
     #path('accounts/login',auth_views.login, name='login'),
     path('accounts/',include('django.contrib.auth.urls')),
     path('post/<int:pk>/comment', views.add_comment_to_post,name='add_comment_to_post'),
-    path('comment/<int:pk>/remove',views.comment_remove, name='comment_remove')
-
+    path('comment/<int:pk>/remove',views.comment_remove, name='comment_remove'),
+    path('comment/<int:pk>/approve',views.comment_approve,name='comment_approve'),
 ]
